@@ -54,7 +54,7 @@ services:
       Jwt__Audience: "TazaOrda"
       Jwt__AccessTokenExpirationMinutes: "60"
       Jwt__RefreshTokenExpirationDays: "7"
-      Minio__Endpoint: "minio:9000"
+      Minio__Endpoint: "91.201.214.158:9000"
       Minio__AccessKey: "admin"
       Minio__SecretKey: "password"
       Minio__Bucket: "edulab"
