@@ -138,7 +138,7 @@ public class OperatorService(TazaOrdaDbContext context, ILogger<OperatorService>
                 Longitude = report.Location.Longitude,
                 Street = report.Street,
                 PhotoBefore = report.PhotoUrl,
-                PhotoAfter = null,
+                PhotoAfter = report.PhotoAfterUrl,
                 CreatedAt = report.CreatedAt,
                 UpdatedAt = report.UpdatedAt,
                 CompletedAt = report.ClosedAt,

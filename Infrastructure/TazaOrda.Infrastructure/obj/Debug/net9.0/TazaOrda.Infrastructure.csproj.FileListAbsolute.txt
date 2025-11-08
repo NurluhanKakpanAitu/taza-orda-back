@@ -13,3 +13,4 @@
 /Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/refint/TazaOrda.Infrastructure.dll
 /Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.pdb
 /Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/ref/TazaOrda.Infrastructure.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.sourcelink.json

@@ -71,6 +71,22 @@ services:
       - tazaorda-network
     restart: unless-stopped
 
+  telegram-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile.bot
+    container_name: tazaorda-telegram-bot
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      TelegramBot__Token: "${TELEGRAM_BOT_TOKEN}"
+      TelegramBot__AdminChatId: "125691222"
+      TelegramBot__ApiBaseUrl: "http://api:8080"
+    depends_on:
+      - api
+    networks:
+      - tazaorda-network
+    restart: unless-stopped
+
 networks:
   tazaorda-network:
     driver: bridge

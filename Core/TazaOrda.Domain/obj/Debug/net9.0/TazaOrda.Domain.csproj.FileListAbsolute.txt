@@ -9,3 +9,4 @@
 /Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/refint/TazaOrda.Domain.dll
 /Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/TazaOrda.Domain.pdb
 /Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/ref/TazaOrda.Domain.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/TazaOrda.Domain.sourcelink.json
