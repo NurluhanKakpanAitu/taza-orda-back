@@ -7,6 +7,7 @@ COPY TazaOrda.sln ./
 COPY Core/TazaOrda.Domain/TazaOrda.Domain.csproj ./Core/TazaOrda.Domain/
 COPY Infrastructure/TazaOrda.Infrastructure/TazaOrda.Infrastructure.csproj ./Infrastructure/TazaOrda.Infrastructure/
 COPY Presentation/TazaOrda.API/TazaOrda.API.csproj ./Presentation/TazaOrda.API/
+COPY Presentation/TazaOrda.TelegramBot/TazaOrda.TelegramBot.csproj ./Presentation/TazaOrda.TelegramBot/
 
 # Restore dependencies
 RUN dotnet restore
