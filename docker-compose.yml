@@ -1,0 +1,80 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: tazaorda-postgres
+    environment:
+      POSTGRES_DB: TazaOrdaDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - tazaorda-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: minio/minio:latest
+    container_name: tazaorda-minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: password
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio-data:/data
+    networks:
+      - tazaorda-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tazaorda-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: "Host=postgres;Port=5432;Database=TazaOrdaDb;Username=postgres;Password=postgres"
+      Jwt__SecretKey: "YourSuperSecretKeyForJWTTokenGenerationThatShouldBeAtLeast32CharactersLong"
+      Jwt__Issuer: "TazaOrda"
+      Jwt__Audience: "TazaOrda"
+      Jwt__AccessTokenExpirationMinutes: "60"
+      Jwt__RefreshTokenExpirationDays: "7"
+      Minio__Endpoint: "minio:9000"
+      Minio__AccessKey: "admin"
+      Minio__SecretKey: "password"
+      Minio__Bucket: "edulab"
+      Minio__UseSSL: "false"
+      Minio__PublicAccess: "true"
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    networks:
+      - tazaorda-network
+    restart: unless-stopped
+
+networks:
+  tazaorda-network:
+    driver: bridge
+
+volumes:
+  postgres-data:
+  minio-data:
