@@ -1,0 +1,15 @@
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/bin/Debug/net9.0/TazaOrda.Infrastructure.deps.json
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/bin/Debug/net9.0/TazaOrda.Infrastructure.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/bin/Debug/net9.0/TazaOrda.Infrastructure.pdb
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/bin/Debug/net9.0/TazaOrda.Domain.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/bin/Debug/net9.0/TazaOrda.Domain.pdb
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.csproj.AssemblyReference.cache
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.AssemblyInfoInputs.cache
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.AssemblyInfo.cs
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.C3B69C58.Up2Date
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/refint/TazaOrda.Infrastructure.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/TazaOrda.Infrastructure.pdb
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Infrastructure/TazaOrda.Infrastructure/obj/Debug/net9.0/ref/TazaOrda.Infrastructure.dll

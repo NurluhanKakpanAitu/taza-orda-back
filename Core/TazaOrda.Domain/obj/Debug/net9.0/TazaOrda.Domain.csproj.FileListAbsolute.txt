@@ -1,0 +1,11 @@
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/bin/Debug/net9.0/TazaOrda.Domain.deps.json
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/bin/Debug/net9.0/TazaOrda.Domain.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/bin/Debug/net9.0/TazaOrda.Domain.pdb
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/TazaOrda.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/TazaOrda.Domain.AssemblyInfoInputs.cache
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/TazaOrda.Domain.AssemblyInfo.cs
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/TazaOrda.Domain.csproj.CoreCompileInputs.cache
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/TazaOrda.Domain.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/refint/TazaOrda.Domain.dll
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/TazaOrda.Domain.pdb
+/Users/nurlykhankakpan/RiderProjects/TazaOrda/Core/TazaOrda.Domain/obj/Debug/net9.0/ref/TazaOrda.Domain.dll
